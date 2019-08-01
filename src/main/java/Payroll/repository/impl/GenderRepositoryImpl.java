@@ -4,10 +4,23 @@ import Payroll.domain.Gender;
 import Payroll.repository.GenderRepository;
 import org.springframework.stereotype.Repository;
 
+import java.util.HashSet;
 import java.util.Set;
 
 @Repository
 public class GenderRepositoryImpl implements GenderRepository {
+
+    private static GenderRepositoryImpl repository = null;
+    private Set<Gender> genderTable;
+
+    private GenderRepositoryImpl(){
+        genderTable = new HashSet<>();
+
+    }
+    public static GenderRepository getRepository(){
+        if(repository == null) repository = new GenderRepositoryImpl();
+        return  repository;
+    }
     @Override
     public Set<Gender> getAll() {
         return null;

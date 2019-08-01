@@ -2,18 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26a958de-d3e0-4fc0-bbf3-9e947cc9eeaf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Payroll/domain/Employeee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Payroll/domain/Employeee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Payroll/domain/Gender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Payroll/domain/Gender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Payroll/domain/Race.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Payroll/domain/Race.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Payroll/factory/EmployeeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Payroll/factory/EmployeeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Payroll/factory/GenderFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Payroll/factory/GenderFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Payroll/factory/RaceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Payroll/factory/RaceFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Payroll/repository/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Payroll/repository/EmployeeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Payroll/repository/GenderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Payroll/repository/GenderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Payroll/repository/IRepository/IRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Payroll/repository/IRepository/IRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Payroll/repository/RaceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Payroll/repository/RaceRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Payroll/repository/impl/EmployeeRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Payroll/repository/impl/EmployeeRepositoryImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Payroll/repository/impl/GenderRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Payroll/repository/impl/GenderRepositoryImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Payroll/repository/impl/RaceRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Payroll/repository/impl/RaceRepositoryImpl.java" afterDir="false" />
     </list>
@@ -29,70 +17,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Payroll/repository/impl/EmployeeRepositoryImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
-              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#443#444#0" expanded="true" />
-                <element signature="e#489#490#0" expanded="true" />
-                <element signature="e#316#317#0" expanded="true" />
-                <element signature="e#343#344#0" expanded="true" />
-                <element signature="e#409#410#0" expanded="true" />
-                <element signature="e#436#437#0" expanded="true" />
-                <element signature="e#496#497#0" expanded="true" />
-                <element signature="e#523#524#0" expanded="true" />
-                <element signature="e#589#590#0" expanded="true" />
-                <element signature="e#616#617#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Payroll/repository/impl/GenderRepositoryImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#304#305#0" expanded="true" />
-                <element signature="e#331#332#0" expanded="true" />
-                <element signature="e#388#389#0" expanded="true" />
-                <element signature="e#415#416#0" expanded="true" />
-                <element signature="e#472#473#0" expanded="true" />
-                <element signature="e#499#500#0" expanded="true" />
-                <element signature="e#556#557#0" expanded="true" />
-                <element signature="e#583#584#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Payroll/repository/impl/RaceRepositoryImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#294#295#0" expanded="true" />
-                <element signature="e#321#322#0" expanded="true" />
-                <element signature="e#372#373#0" expanded="true" />
-                <element signature="e#399#400#0" expanded="true" />
-                <element signature="e#454#455#0" expanded="true" />
-                <element signature="e#481#482#0" expanded="true" />
-                <element signature="e#532#533#0" expanded="true" />
-                <element signature="e#559#560#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -122,9 +47,9 @@
         <option value="$PROJECT_DIR$/src/main/java/Payroll/repository/EmployeeRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/Payroll/repository/GenderRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/Payroll/repository/RaceRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Payroll/repository/impl/RaceRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Payroll/repository/impl/GenderRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/Payroll/repository/impl/EmployeeRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Payroll/repository/impl/GenderRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Payroll/repository/impl/RaceRepositoryImpl.java" />
       </list>
     </option>
   </component>
@@ -175,6 +100,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Payroll" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Payroll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Payroll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Payroll" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -215,18 +149,17 @@
       <option name="presentableId" value="Default" />
       <updated>1564650586387</updated>
       <workItem from="1564650591451" duration="3510000" />
-      <workItem from="1564683007816" duration="6553000" />
+      <workItem from="1564683007816" duration="8461000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10063000" />
+    <option name="totallyTimeSpent" value="11971000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="606" y="11" width="735" height="769" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.044444446" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35407406" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -401,28 +334,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Payroll/repository/impl/RaceRepositoryImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Payroll/repository/impl/EmployeeRepositoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="20" />
+        <state relative-caret-position="170">
+          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Payroll/repository/impl/GenderRepositoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="20" />
+        <state relative-caret-position="340">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#304#305#0" expanded="true" />
@@ -437,22 +372,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Payroll/repository/impl/EmployeeRepositoryImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Payroll/repository/impl/RaceRepositoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        <state relative-caret-position="340">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
             <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
           </folding>
         </state>
       </provider>
