@@ -17,32 +17,50 @@ public class GenderRepositoryImpl implements GenderRepository {
         genderTable = new HashSet<>();
 
     }
-    public static GenderRepository getRepository(){
-        if(repository == null) repository = new GenderRepositoryImpl();
-        return  repository;
+
+    private Gender findGender(final String genderID){
+        return this.genderTable.stream()
+                .filter(employeeGender -> employeeGender.getFemale().trim().equals(genderID))
+                .findAny()
+                .orElse(null);
     }
-    @Override
-    public Set<Gender> getAll() {
-        return null;
+
+    public static GenderRepositoryImpl getRepository() {
+        if (repository == null) repository = new GenderRepositoryImpl();
+        return repository;
     }
 
     @Override
     public Gender create(Gender gender) {
-        return null;
-    }
-
-    @Override
-    public Gender read(Integer integer) {
-        return null;
+        this.genderTable.add(gender);
+        return gender;
     }
 
     @Override
     public Gender update(Gender gender) {
+        Gender toDelete = findGender(gender.getFemale());
+        if(toDelete != null){
+            this.genderTable.remove(toDelete);
+            return create(gender);
+        }
         return null;
     }
 
     @Override
-    public void delete(Integer integer) {
+    public void delete(String genderNum) {
+        Gender gender = findGender(genderNum);
+        if (gender !=null) this.genderTable.remove(gender);
 
+    }
+
+    @Override
+    public Gender read(String genderID) {
+        Gender gender = findGender(genderID);
+        return gender;
+    }
+
+    @Override
+    public Set<Gender> getAll() {
+        return this.genderTable;
     }
 }

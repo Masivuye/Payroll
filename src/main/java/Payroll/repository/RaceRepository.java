@@ -5,6 +5,6 @@ import Payroll.repository.IRepository.IRepository;
 
 import java.util.Set;
 
-public interface RaceRepository extends IRepository<Race,Integer> {
+public interface RaceRepository extends IRepository<Race,String> {
     Set<Race> getAll();
 }

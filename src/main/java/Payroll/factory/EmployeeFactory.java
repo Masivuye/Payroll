@@ -1,10 +1,10 @@
 package Payroll.factory;
 
-import Payroll.domain.Employeee;
+import Payroll.domain.Employee;
 
 public class EmployeeFactory {
-    public static Employeee getEmployee(String firstName,String lastName){
-        return new Employeee.Builder().firstName(firstName)
+    public static Employee getEmployee(String firstName, String lastName){
+        return new Employee.Builder().firstName(firstName)
                 .lastName(lastName)
                 .build();
     }

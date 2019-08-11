@@ -1,6 +1,6 @@
 package Payroll.repository.impl;
 
-import Payroll.domain.Employeee;
+import Payroll.domain.Employee;
 import Payroll.repository.EmployeeRepository;
 import org.springframework.stereotype.Repository;
 
@@ -11,38 +11,54 @@ import java.util.Set;
 public class EmployeeRepositoryImpl implements EmployeeRepository {
 
     private static EmployeeRepositoryImpl repository = null;
-    private Set<Employeee> employeeeTable;
+    private Set<Employee> employees;
 
     private EmployeeRepositoryImpl(){
-        employeeeTable= new HashSet<>();
+        this.employees = new HashSet<>();
     }
-    public static EmployeeRepository getRepository(){
-        if(repository == null) repository = new EmployeeRepositoryImpl();
+
+    private Employee findEmployee(final String lastName){
+        return this.employees.stream()
+                .filter(employee -> employee.getLasName().trim().equals(lastName))
+                .findAny()
+                .orElse(null);
+    }
+
+    public static EmployeeRepositoryImpl getRepository() {
+        if (repository == null) repository = new EmployeeRepositoryImpl();
         return repository;
     }
 
     @Override
-    public Set<Employeee> getAll() {
+    public Employee create(Employee employee) {
+        this.employees.add(employee);
+        return employee;
+    }
+
+    @Override
+    public Employee update(Employee employee) {
+        Employee toDelete = findEmployee(employee.getLasName());
+        if(toDelete != null){
+            this.employees.remove(toDelete);
+            return create(employee);
+        }
         return null;
     }
 
     @Override
-    public Employeee create(Employeee employeee) {
-        return null;
+    public void delete(String empNum) {
+        Employee employee = findEmployee(empNum);
+        if (employee !=null) this.employees.remove(employee);
     }
 
     @Override
-    public Employeee read(Integer integer) {
-        return null;
+    public Employee read(final String empNum) {
+        Employee employee = findEmployee(empNum);
+        return employee;
     }
 
     @Override
-    public Employeee update(Employeee employeee) {
-        return null;
-    }
-
-    @Override
-    public void delete(Integer integer) {
-
+    public Set<Employee> getAll() {
+        return this.employees;
     }
 }

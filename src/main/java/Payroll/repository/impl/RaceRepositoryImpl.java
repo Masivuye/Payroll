@@ -17,32 +17,50 @@ public class RaceRepositoryImpl implements RaceRepository {
         raceTable = new HashSet<>();
     }
 
+    private Race findRace(final String raceID){
+        return this.raceTable.stream()
+                .filter(race -> race.getAfrican().trim().equals(raceID))
+                .findAny()
+                .orElse(null);
+    }
+
     public static RaceRepository getRepository(){
         if(repository == null) repository = new RaceRepositoryImpl();
         return repository;
     }
-    @Override
-    public Set<Race> getAll() {
-        return null;
-    }
+
 
     @Override
     public Race create(Race race) {
-        return null;
-    }
-
-    @Override
-    public Race read(Integer integer) {
-        return null;
+        this.raceTable.add(race);
+        return race;
     }
 
     @Override
     public Race update(Race race) {
+        Race toDelete = findRace(race.getAfrican());
+        if(toDelete != null){
+            this.raceTable.remove(toDelete);
+            return create(race);
+        }
         return null;
     }
 
     @Override
-    public void delete(Integer integer) {
+    public void delete(String raceNum) {
+        Race race = findRace(raceNum);
+        if (race !=null) this.raceTable.remove(race);
 
+    }
+
+    @Override
+    public Race read(String raceID) {
+        Race race = findRace(raceID);
+        return race;
+    }
+
+    @Override
+    public Set<Race> getAll() {
+        return this.raceTable;
     }
 }

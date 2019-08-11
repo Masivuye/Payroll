@@ -1,4 +1,10 @@
 package Payroll.service;
 
-public interface EmployeeService {
+import Payroll.domain.Employee;
+import Payroll.service.IService.IService;
+
+import java.util.Set;
+
+public interface EmployeeService extends IService<Employee,String> {
+    Set<Employee> getAll();
 }

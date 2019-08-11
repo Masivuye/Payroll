@@ -5,6 +5,6 @@ import Payroll.repository.IRepository.IRepository;
 
 import java.util.Set;
 
-public interface GenderRepository  extends IRepository<Gender,Integer> {
+public interface GenderRepository  extends IRepository<Gender,String> {
     Set<Gender> getAll();
 }

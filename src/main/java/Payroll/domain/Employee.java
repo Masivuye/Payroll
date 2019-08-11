@@ -3,12 +3,12 @@ package Payroll.domain;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 @EntityScan
-public class Employeee {
+public class Employee {
  private String firstName,lasName;
 
- private Employeee(){}
+ private Employee(){}
 
- private Employeee(Builder builder){
+ private Employee(Builder builder){
      this.firstName = builder.firstName;
      this.lasName = builder.lastName;
  }
@@ -32,13 +32,13 @@ public class Employeee {
          this.lastName = lastName;
          return this;
      }
-     public Builder copy(Employeee employeee){
+     public Builder copy(Employee employee){
          this.firstName = firstName;
          this.lastName = lastName;
          return this;
      }
-     public Employeee build(){
-         return new Employeee(this);
+     public Employee build(){
+         return new Employee(this);
      }
 
         @Override
