@@ -2,29 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26a958de-d3e0-4fc0-bbf3-9e947cc9eeaf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Payroll/service/EmployeeGenderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Payroll/service/EmployeeRaceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Payroll/service/impl/EmployeeGenderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Payroll/service/impl/EmployeeRaceServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Payroll/repository/impl/EmployeeRepositoryImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Payroll/repository/impl/GenderRepositoryImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Payroll/repository/impl/RaceRepositoryImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Payroll/service/impl/EmployeeGenderServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Payroll/service/impl/EmployeeRaceServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Payroll/service/impl/EmployeeServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Payroll/domain/Employeee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Payroll/domain/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Payroll/factory/EmployeeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Payroll/factory/EmployeeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Payroll/repository/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Payroll/repository/EmployeeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Payroll/repository/GenderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Payroll/repository/GenderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Payroll/repository/RaceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Payroll/repository/RaceRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Payroll/repository/impl/EmployeeRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Payroll/repository/impl/EmployeeRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Payroll/repository/impl/GenderRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Payroll/repository/impl/GenderRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Payroll/repository/impl/RaceRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Payroll/repository/impl/RaceRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Payroll/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Payroll/service/EmployeeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Payroll/service/IService/IService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Payroll/service/IService/IService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Payroll/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Payroll/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Payroll/repository/impl/EmployeeRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Payroll/repository/impl/EmployeeRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Payroll/repository/impl/GenderRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Payroll/repository/impl/GenderRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Payroll/repository/impl/RaceRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Payroll/repository/impl/RaceRepositoryImplTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,23 +21,47 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Payroll/service/impl/EmployeeGenderServiceImplTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Payroll/repository/impl/RaceRepositoryImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="62" column="1" lean-forward="true" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
+            <state relative-caret-position="986">
+              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
               <folding>
-                <element signature="e#1606#1607#0" expanded="true" />
-                <element signature="e#1676#1677#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1180#1181#0" expanded="true" />
+                <element signature="e#1236#1237#0" expanded="true" />
+                <element signature="e#1691#1692#0" expanded="true" />
+                <element signature="e#1755#1756#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Payroll/repository/impl/RaceRepositoryImplTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Payroll/repository/impl/EmployeeRepositoryImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="287">
+              <caret line="62" column="1" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
+              <folding>
+                <element signature="e#1289#1290#0" expanded="true" />
+                <element signature="e#1350#1351#0" expanded="true" />
+                <element signature="e#1634#1635#0" expanded="true" />
+                <element signature="e#1697#1698#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Payroll/repository/impl/GenderRepositoryImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="49" column="43" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
+              <folding>
+                <element signature="e#1189#1190#0" expanded="true" />
+                <element signature="e#1257#1258#0" expanded="true" />
+                <element signature="e#1568#1569#0" expanded="true" />
+                <element signature="e#1634#1635#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,9 +93,6 @@
         <option value="$PROJECT_DIR$/src/main/java/Payroll/factory/EmployeeFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/Payroll/repository/IRepository/IRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/Payroll/service/IService/IService.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Payroll/repository/impl/EmployeeRepositoryImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Payroll/repository/impl/GenderRepositoryImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Payroll/repository/impl/RaceRepositoryImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Payroll/service/impl/user/EmployeeServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/Payroll/repository/EmployeeRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/Payroll/repository/GenderRepository.java" />
@@ -107,6 +109,9 @@
         <option value="$PROJECT_DIR$/src/test/java/Payroll/service/impl/EmployeeServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Payroll/service/impl/EmployeeRaceServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Payroll/service/impl/EmployeeGenderServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Payroll/repository/impl/GenderRepositoryImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Payroll/repository/impl/EmployeeRepositoryImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Payroll/repository/impl/RaceRepositoryImplTest.java" />
       </list>
     </option>
   </component>
@@ -255,7 +260,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EmployeeGenderServiceImplTest">
+  <component name="RunManager" selected="JUnit.RaceRepositoryImplTest">
     <configuration name="EmployeeGenderServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Payroll" />
       <extension name="coverage">
@@ -301,45 +306,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeServiceImplTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GenderRepositoryImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Payroll" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Payroll.service.impl.*" />
+          <option name="PATTERN" value="Payroll.repository.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Payroll.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="Payroll.service.impl.EmployeeServiceImplTest" />
-      <option name="METHOD_NAME" value="create" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="Payroll.repository.impl" />
+      <option name="MAIN_CLASS_NAME" value="Payroll.repository.impl.GenderRepositoryImplTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeServiceImplTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RaceRepositoryImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Payroll" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Payroll.service.impl.*" />
+          <option name="PATTERN" value="Payroll.repository.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Payroll.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="Payroll.service.impl.EmployeeServiceImplTest" />
-      <option name="METHOD_NAME" value="update" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="Payroll.repository.impl" />
+      <option name="MAIN_CLASS_NAME" value="Payroll.repository.impl.RaceRepositoryImplTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RaceRepositoryImplTest" />
+        <item itemvalue="JUnit.GenderRepositoryImplTest" />
         <item itemvalue="JUnit.EmployeeGenderServiceImplTest" />
         <item itemvalue="JUnit.EmployeeRaceServiceImplTest" />
         <item itemvalue="JUnit.EmployeeServiceImplTest" />
-        <item itemvalue="JUnit.EmployeeServiceImplTest.create" />
-        <item itemvalue="JUnit.EmployeeServiceImplTest.update" />
       </list>
     </recent_temporary>
   </component>
@@ -355,7 +358,7 @@
       <updated>1564650586387</updated>
       <workItem from="1564650591451" duration="3510000" />
       <workItem from="1564683007816" duration="11770000" />
-      <workItem from="1565529258815" duration="4898000" />
+      <workItem from="1565529258815" duration="7584000" />
     </task>
     <servers />
   </component>
@@ -381,9 +384,18 @@
     <history-entry file="EmployeeRaceServiceImplTest - 2019.08.11 at 16h 33m 03s.xml">
       <configuration name="EmployeeRaceServiceImplTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="EmployeeGenderServiceImplTest - 2019.08.11 at 16h 37m 10s.xml">
+      <configuration name="EmployeeGenderServiceImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RaceRepositoryImplTest - 2019.08.11 at 17h 05m 12s.xml">
+      <configuration name="RaceRepositoryImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GenderRepositoryImplTest - 2019.08.11 at 17h 19m 11s.xml">
+      <configuration name="GenderRepositoryImplTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20178000" />
+    <option name="totallyTimeSpent" value="22864000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -505,20 +517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Payroll/repository/impl/EmployeeRepositoryImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Payroll/repository/impl/GenderRepositoryImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -677,13 +675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Payroll/repository/impl/RaceRepositoryImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Payroll/service/impl/EmployeeGenderServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
@@ -691,6 +682,46 @@
           <folding>
             <element signature="e#1606#1607#0" expanded="true" />
             <element signature="e#1676#1677#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Payroll/repository/impl/GenderRepositoryImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="49" column="43" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
+          <folding>
+            <element signature="e#1189#1190#0" expanded="true" />
+            <element signature="e#1257#1258#0" expanded="true" />
+            <element signature="e#1568#1569#0" expanded="true" />
+            <element signature="e#1634#1635#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Payroll/repository/impl/EmployeeRepositoryImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="62" column="1" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
+          <folding>
+            <element signature="e#1289#1290#0" expanded="true" />
+            <element signature="e#1350#1351#0" expanded="true" />
+            <element signature="e#1634#1635#0" expanded="true" />
+            <element signature="e#1697#1698#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Payroll/repository/impl/RaceRepositoryImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1180#1181#0" expanded="true" />
+            <element signature="e#1236#1237#0" expanded="true" />
+            <element signature="e#1691#1692#0" expanded="true" />
+            <element signature="e#1755#1756#0" expanded="true" />
           </folding>
         </state>
       </provider>
