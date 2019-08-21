@@ -2,6 +2,8 @@ package Payroll.service.impl;
 
 import Payroll.domain.Employee;
 import Payroll.repository.EmployeeRepository;
+import Payroll.repository.GenderRepository;
+import Payroll.repository.RaceRepository;
 import Payroll.repository.impl.EmployeeRepositoryImpl;
 import Payroll.service.EmployeeService;
 import org.springframework.stereotype.Service;
@@ -12,6 +14,8 @@ public class EmployeeServiceImpl implements EmployeeService {
 
     private static EmployeeServiceImpl service = null;
     private EmployeeRepository repository;
+    //private GenderRepository gender;
+    //private RaceRepository race;
 
     private EmployeeServiceImpl(){
         this.repository = EmployeeRepositoryImpl.getRepository();
